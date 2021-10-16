@@ -1,55 +1,60 @@
-![repo version](https://img.shields.io/badge/Version-v.%201.1-green)
-![python version](https://img.shields.io/badge/python-v.3.6-blue)
-![license](https://img.shields.io/badge/license-CC_BY_4.0-orange)
+[![License](https://img.shields.io/github/license/italia/bootstrap-italia.svg)](https://github.com/italia/bootstrap-italia/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/italia/bootstrap-italia.svg)](https://github.com/italia/bootstrap-italia/issues)
+[![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7VPAUVB3/)
+[![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
+[![18app on forum.italia.it](https://img.shields.io/badge/Forum-18app-blue.svg)](https://forum.italia.it/c/18app-carta-docente)
 
-# CNN for SEM Images
+# Annunci / Status del progetto
 
-![Screenshot](VGG16_CNNSEM.png)
+# Titolo
 
-This repository contains all the necessary files to fine tune a pretrained VGG16 CNN starting from custom images and to predict SEM images of calcareous red algae using saved models.
-For more information regarding the method, have a look at:
-REF
+> Sottotitolo / Slogan / Descrizione breve
 
-## Getting Started
+*Read this in other languages: [English](README.EN.md).*
 
-These instructions will get you a copy of the project up and running on your local machine.
+## Immagini e GIF
 
-### Prerequisites
+![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
 
-The following prerequisites are needed:
+# Indice
 
-*[Python 3.6*](https://www.python.org/download/releases/3.6/)
+- [Come iniziare](#come-iniziare)
+- [Come contribuire](#come-contribuire)
+- [Manutenzione](#manutenzione)
+- [Licenza](#licenza)
 
+# Come iniziare
 
-### Creation of the Conda environment
+## Dipendenze
+## Come installare
 
-Install conda from the [official website](https://www.anaconda.com/download/). Once conda is installed, it can be used to generate the environment saved in the environment.yml file.
-
-The environment can be created with conda as follows (after saving the environment.yml file in the working directory):
+```js
+console.log("Questo è un esempio di blocco di codice")
 ```
-conda env create -f environment.yml
-```
-Activate jupyter notebook inside the environment as follows:
 
-```
-conda activate env
-jupyter notebook
-```
-Now go to the notebooks directory.
+## Documentazione
+### Link a documentazione esterna 
 
-## Using the notebook
-There are two notebooks allowing to reproduce the work in REF.
-1. "CNN_SEM_VGG16_MODEL" allows to replicate the training and prediction in the Internal validatione and External test setups.
-2. "EXPLANATION" allows to load the saved models, predict custom images and return the explanation in terms of LIME, GradCAM and saliency.
+# Come contribuire
 
+## Installare le dipendenze di sviluppo
 
-## Authors
+## Struttura del progetto
 
-* **Cecile Valsecchi** (https://github.com/grisoniFr)
-* **Gabriele Sottocornola** (https://github.com/grisoniFr)
-* **Giulia Piazza**
+## Community
 
-## License
+### Code of conduct
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-See the [LICENSE.md](LICENSE.md) file for additional details. 
+### Responsible Disclosure
+
+### Segnalazione bug e richieste di aiuto
+
+# Manutenzione 
+
+# Licenza 
+
+## Licenza generale 
+
+## Autori e Copyright
+
+## Licenze software dei componenti di terze parti
