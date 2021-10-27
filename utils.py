@@ -23,7 +23,9 @@ from sklearn.model_selection import StratifiedKFold
 from keras.models import model_from_json
 from keras.models import load_model
 
-def own_train_generator_func():
+num_struct = 6
+
+def own_train_generator_func(train_df, train_generator, num_struct, n_classes):
     count = 0
     while True:
         if count == len(train_df.index):
@@ -38,7 +40,7 @@ def own_train_generator_func():
         
         yield [imgs, meta], targets
 
-def own_test_generator_func():
+def own_test_generator_func(test_df, test_generator, num_struct, n_classes):
     count = 0
     test_generator.reset()
     while True:
@@ -55,7 +57,7 @@ def own_test_generator_func():
         yield [imgs, meta], targets
         
         
-def own_test_generator_func_unknown():
+def own_test_generator_func_unknown(unknown_df, unknown_generator, num_struct, n_classes):
     count = 0
     unknown_generator.reset()
     while True:
@@ -71,7 +73,7 @@ def own_test_generator_func_unknown():
         
         yield [imgs, meta], targets
         
-def create_model():
+def create_model(hidden_vgg, learning_rate, reg, n_classes, num_struct):
     # Import pre-trained VGG16 model
     pretrained_model = VGG16(input_shape=(224, 224, 3), include_top=False, weights="imagenet")
 
