@@ -32,7 +32,7 @@ conda env create -f environment.yml
 Activate jupyter notebook inside the environment as follows:
 
 ```
-conda activate env
+conda activate kerasclonenv
 jupyter notebook
 ```
 
@@ -41,7 +41,7 @@ Now go to the notebooks directory.
 ## Using the notebook
 
 There are two notebooks allowing to reproduce the work in REF.
-1. "CNN_SEM_VGG16_MODEL" allows to replicate the training and prediction in the Internal validatione and External test setups.
+1. "CNN_SEM_VGG16_MODEL" contains the code used for the training and prediction in the Internal validatione and External test setups.
 2. "EXPLANATION" allows to load the saved models, predict custom images and return the explanation in terms of LIME, GradCAM and saliency.
 
-Example images are present in the "image" folder.
+Example images are present in the "images" folder.
