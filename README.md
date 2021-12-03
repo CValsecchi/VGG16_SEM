@@ -46,4 +46,5 @@ There are two notebooks allowing to reproduce the work in REF.
 
 Example images are present in the "images" folder.
 
+## Reference
 Piazza, G.; Valsecchi, C.; Sottocornola, G. Deep Learning Applied to SEM Images for Supporting Marine Coralline Algae Classification. Diversity 2021, 13, 640. https://doi.org/10.3390/d13120640
