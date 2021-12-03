@@ -45,3 +45,5 @@ There are two notebooks allowing to reproduce the work in REF.
 2. "EXPLANATION" allows to load the saved models, predict custom images and return the explanation in terms of LIME, GradCAM and saliency.
 
 Example images are present in the "images" folder.
+
+Piazza, G.; Valsecchi, C.; Sottocornola, G. Deep Learning Applied to SEM Images for Supporting Marine Coralline Algae Classification. Diversity 2021, 13, 640. https://doi.org/10.3390/d13120640
